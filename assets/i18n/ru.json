@@ -1,0 +1,139 @@
+{
+  "main": {
+    "name": "MARUZ",
+    "menu": {
+      "main": "Расписание",
+      "schedule": "Занятия",
+      "auditory": "Загруженность аудиторий",
+      "lang": "Язык"
+    },
+    "title": {
+      "main": "Расписание занятий",
+      "schedule": "Поиск занятий",
+      "auditory": "Загруженность аудиторий"
+    },
+    "footer": {
+      "name": "Расписание учебных занятий",
+      "support": "Поддержка",
+      "email": "ruz@galaktika-it.ru",
+      "version": "v",
+      "url1": "",
+      "url1_description": "",
+      "url2": "",
+      "url2_description": "",
+      "custom_html": "Подключаться по ссылке «Вебинар» могут только иностранные обучающиеся, находящиеся за рубежом и не имеющие возможности въехать на территорию Российской Федерации для очного обучения, а также обучающиеся <a href=\"http://www.fa.ru/covid19/Pages/distant.aspx\" target=\"_blank\">групп, переведенных на изоляцию</a>."
+    }
+  },
+  "schedule": {
+    "col": {
+      "date": "Дата",
+      "day": "День",
+      "start": "Начало",
+      "end": "Окончание",
+      "discipline": "Дисциплина",
+      "type": "Тип",
+      "building": "Здание",
+      "auditorium": "Аудитория",
+      "lecturer": "Преподаватель",
+      "thread": "Поток",
+      "group": "Группа",
+      "subgroup": "Подгруппа",
+      "note": "Примечание",
+      "url1": "Ресурс 1",
+      "url2": "Ресурс 2"
+    },
+    "filter": {
+      "start": "C",
+      "end": "По",
+      "group": "Группа",
+      "student": "Студент",
+      "lecturer": "Преподаватель",
+      "person": "Расписание по персоне",
+      "auditorium": "Аудитория",
+      "building": "Здание",
+      "set_period": "Установить период",
+      "week": "Неделя",
+      "week_next": "Следующая неделя",
+      "week_prev": "Предыдущая неделя",
+      "month": "Месяц",
+      "quarter": "Квартал",
+      "halfyear": "Полгода",
+      "view_list": "Список",
+      "view_grid": "Сетка",
+      "view_calendar": "Календарь",
+      "lesson": "Пара",
+      "lesson_number": "-я пара"
+    },
+    "toolbar": {
+      "apply_filter": "Поиск",
+      "search_placeholder": "Поиск по отобранным записям",
+      "reset_filter": "Очистить",
+      "export": "Экспорт",
+      "export_xls": "Экспорт в Excel",
+      "export_pdf": "Экспорт в Pdf",
+      "export_csv": "Экспорт в Csv",
+      "export_ical": "Экспорт в iCal",
+      "columns": "Колонки",
+      "view": "Вид",
+      "list": "Список",
+      "grid": "Сетка",
+      "nodata": "Нет данных",
+      "records": "Записей",
+      "colored": "Раскрасить по типу",
+      "waiting": "Подождите, идет загрузка...",
+      "need_filter": "Установите фильтры"
+    },
+    "types": {
+      "group": "Группа",
+      "student": "Студент",
+      "lecturer": "Преподаватель",
+      "auditorium": "Аудитория",
+      "building": "Здание"
+    },
+    "auditory": {
+      "statBtn": "Статистика",
+      "statTitle": "Статистика",
+      "conflict": "Накладка",
+      "conflicts": "Накладок",
+      "load": "Загрузка",
+      "auditory": "Аудитория",
+      "auditories": "Аудиторий",
+      "auditorySize": "Вместимость",
+      "auditoryType": "Тип",
+      "busy": "Занято",
+      "lesson": "Занятие",
+      "lessons": "Занятий",
+      "event": "Мероприятие",
+      "events": "Мероприятий",
+      "free": "Свободно",
+      "showAudSize": "Показывать вместимость",
+      "showNames": "Показывать названия в ячейках",
+      "showDates": "Показывать время в ячейках",
+      "audUp": "Аудитории сверху",
+      "showHiddenAud": "Показать скрытые аудитории",
+      "tvMode": "TV Mode",
+      "hideEmptyAud": "Скрыть пустые аудитории"
+    }
+  },
+  "error": {
+    "title": "Ошибка",
+    "close": "Закрыть",
+    "default": "Ошибка получения расписания",
+    "export": "Не удалось выполнить экспорт",
+    "api": {
+      "ruz-data-source-unavailable": "Сервер с расписанием недоступен",
+      "period-is-wrong": "Период задан с ошибкой",
+      "period-is-too-big": "Период слишком большой",
+      "non-api-request": "Запрос не может быть обработан",
+      "zero-id-request": "Расписание не найдено",
+      "no-mail-coincidence": "Персональное расписание не найдено",
+      "empty-mail": "Персональное расписание не найдено",
+      "error-coincidence": "Ошибка авторизации",
+      "ssoserver-cancel-auth": "Авторизация отменена"
+    }
+  },
+  "info": {
+    "title": "Обратите внимание",
+    "default": ""
+  }
+}

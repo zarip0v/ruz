@@ -1,0 +1,61 @@
+/**
+    Цвет прелоадера
+ */
+.banter-loader-bg {
+  background-color: lightgrey;
+}
+
+.banter-loader__box:before {
+  background: #0060cc;
+}
+
+/**
+    Цвет типа занятия для квадратика
+ */
+/*
+.color-lecture {
+    color: darken(#E6F5D7, 20%);
+}
+
+.color-lab {
+    color: darken(#DEF4FF, 20%);
+}
+
+.color-practice {
+    color: darken(#FFECD1, 20%);
+}
+
+.color-exam {
+    color: darken(#FFE6F4, 20%);
+}
+*/
+
+/**
+    Цвет фона для типа занятий
+ */
+
+/*
+.color-types .bg-lecture {
+    background-color: #E6F5D7;
+}
+.color-types .bg-lab {
+    background-color: #DEF4FF;
+}
+.color-types .bg-practice {
+    background-color: #FFECD1;
+}
+.color-types .bg-exam {
+    background-color: #FFE6F4;
+}
+*/
+
+/**
+Информационные сообщения
+ */
+body .ui-toast .ui-toast-message.ui-toast-message-info {
+  border-color: #003399;
+}
+
+body .ui-toast .ui-toast-message.ui-toast-message-info h3 {
+  color: #003399 !important;
+}

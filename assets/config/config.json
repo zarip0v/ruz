@@ -1,0 +1,88 @@
+{
+  "url": "192.168.1.1",
+  "logo": "ruz_files/logo1.png",
+  "logoUrl": "/",
+  "apiUrl": "/api/",
+  "showHeader": true,
+  "showFooter": false,
+  "showTitle": false,
+  "showSupport": false,
+  "supportUrlType": "link",
+  "supportUrlValue": "https://pmo.hse.ru/servicedesk/customer/portal/81/group/319",
+  "mobileMaxWidth": 576,
+  "studentSearch": true,
+  "showFilterByPerson": true,
+  "showLessonNote": true,
+  "showFooterUrl1": false,
+  "showFooterUrl2": false,
+  "showFooterHtml": false,
+  "copyrightStartYear": 2017,
+  "menu": [
+    {
+      "code": "main",
+      "enabled": true
+    },
+    {
+      "code": "schedule",
+      "enabled": true
+    },
+    {
+      "code": "auditory",
+      "enabled": true
+    }
+  ],
+  "langs": [
+    {
+      "code": "ru",
+      "name": "Русский",
+      "enabled": true
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "enabled": false
+    },
+    {
+      "code": "ar",
+      "name": "العربية",
+      "enabled": false
+    },
+    {
+      "code": "tt",
+      "name": "Татар",
+      "enabled": false
+    }
+  ],
+  "types": [
+    {
+      "code": "group",
+      "enabled": true
+    },
+    {
+      "code": "student",
+      "enabled": true
+    },
+    {
+      "code": "lecturer",
+      "enabled": true
+    },
+    {
+      "code": "auditorium",
+      "enabled": true
+    }
+  ],
+  "views": [
+    {
+      "code": "list",
+      "enabled": true
+    },
+    {
+      "code": "grid",
+      "enabled": true
+    },
+    {
+      "code": "calendar",
+      "enabled": false
+    }
+  ]
+}
