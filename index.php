@@ -24,12 +24,6 @@ function checkToken($token): bool
 // Расшифровываем URL
 $url = explode("/", $_SERVER["REQUEST_URI"]);
 
-// Если нет токена в Cookie или он истек, редиректим на авторизацию
-if (!isset($_COOKIE["token"]) || !checkToken($_COOKIE["token"])) {
-    header("Location: " . $_ENV["AUTH_LOGIN_URL"]);
-    die();
-}
-
 // Если мы вернулись из авторизации, проверить токен и сохранить
 if (isset($url[1]) && $url[1] === "redirect") {
     if (checkToken($_POST["access_token"])) {
@@ -40,6 +34,12 @@ if (isset($url[1]) && $url[1] === "redirect") {
         http_response_code(403);
         echo "Доступ запрещён.";
     }
+    die();
+}
+
+// Если нет токена в Cookie или он истек, редиректим на авторизацию
+if (!isset($_COOKIE["token"]) || !checkToken($_COOKIE["token"])) {
+    header("Location: " . $_ENV["AUTH_LOGIN_URL"]);
     die();
 }
 
